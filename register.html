@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/registro.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="inicio">
+            <a href="homePage.html" class="logo"><i class='bx bxs-store'></i> Home<span>.</span></span></a>
+        </div>
+        <div class="form-container">
+            <div class="singin-singup">
+                <form action="" class="sing-in" id="login-form">
+                    <h2 class="titulo">Ingreso</h2>
+                    <div class="entrada">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Nombre de ususario" id="username-input">
+                    </div>
+                    <div class="entrada">
+                        <i class='bx bxs-lock-open-alt'></i>
+                        <input type="password" placeholder="Contraseña" id="password-input">
+                    </div>
+                    <input type="submit" value="Ingreso" class="btn solid">
+                    <p class="social-text">Ingresa con </p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-google'></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </form>
+
+                <form action="" class="sing-up" id="sing-in-form">
+                    <h2 class="titulo">Registro</h2>
+                    <div class="entrada">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Nombre de ususario" id="regiNombreUsu">
+                    </div>
+                    <div class="entrada">
+                        <i class='bx bxs-lock-open-alt'></i>
+                        <input type="password" placeholder="Contraseña" id="regiContra">
+                    </div>
+                    <div class="entrada">
+                        <i class='bx bxs-lock-open-alt'></i>
+                        <input type="password" placeholder="Confirmar contraseña" id="regiConfContr">
+                    </div>
+                    <div class="entrada">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="text" placeholder="Email" id="regiEmail"> 
+                    </div>
+                    
+                    <div class="entrada">
+                        <i class='bx bxs-phone'></i>
+                        <input type="text" placeholder="Numero telefonico" id="regiNumeroTel">
+                    </div>
+                    <div class="entrada">
+                        <i class='bx bxs-store'></i>
+                        <input type="text" placeholder="Nombre del local" id="regiNomLocal">
+                    </div>
+                    <div class="entrada">
+                        <i class='bx bxs-category'></i>
+                            <select id="categoria" name="categoria" >  
+                                <option value="option0">Selecciona una categoría:</option>
+                                <option value="opcion1">Tienda</option>
+                                <option value="opcion2">Barberia</option>
+                                <option value="opcion3">Fruver</option>
+                                <option value="opcion4">Comidas rapidas</option>
+                                <option value="opcion5">Papeleria</option>
+                            </select>
+                    </div>
+                    <input type="submit" value="Registro" class="btn solid">
+                    <p class="social-text">Ingresa con </p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-google'></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Eres nuevo?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab libero earum commodi dolores ullam nam deleniti aspernatur vel, eum tempore unde aliquam tenetur voluptatem. 
+                        Voluptatum ex nobis tenetur corrupti minima.</p>
+                    <button class="btn transparent" id="sing-up-btn">Registro</button>
+                </div>
+                <img src="img/Marketing _Flatline.png" alt="" class="imagen">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Ya estas registrado?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab libero earum commodi dolores ullam nam deleniti aspernatur vel, eum tempore unde aliquam tenetur voluptatem. 
+                        Voluptatum ex nobis tenetur corrupti minima.</p>
+                    <button class="btn transparent" id="sing-in-btn">Ingreso</button>
+                </div>
+                <img src="img/Online presentation_Flatline.png" alt="" class="imagen">
+            </div>
+        </div>
+    </div>
+<script src="js/js.js"></script>
+</body>
+
+</html>
